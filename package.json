@@ -1,0 +1,24 @@
+{
+  "name": "testcafe-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/",
+    "serve": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabbersepp/testcafe-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabbersepp/testcafe-issue/issues"
+  },
+  "homepage": "https://github.com/gabbersepp/testcafe-issue#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "testcafe": "^1.11.0"
+  }
+}

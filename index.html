@@ -1,0 +1,17 @@
+<button onClick="setData()">Set</button>
+
+<div id="test"></div>
+<script>
+window.addEventListener('storage', function(e) {  
+ console.log('storage event');
+ document.querySelector("#test").textContent = "received";
+});
+
+function setData(){
+  console.log('SET');
+  localStorage.setItem('superpower', 'heatvision');
+  
+ document.querySelector("#test").textContent = "clicked";
+}
+
+</script>
